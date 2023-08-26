@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  .background-div {
+    background-color: white;
+    background-image: none; /* Ensure no background image at this breakpoint */
+  }
+}
+
+@media (min-width: 768px) {
+  .background-div {
+    background-color: transparent;
+    background-image: url("/src//assets/wave.svg");
+    background-size: cover;
+    background-position: center;
+  }
+}
